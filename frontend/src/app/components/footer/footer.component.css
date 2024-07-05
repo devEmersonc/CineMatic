@@ -1,0 +1,10 @@
+.container-fluid {
+    background-color: #222222;
+    padding: 50px;
+}
+ul li{
+    color: white;
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+}
