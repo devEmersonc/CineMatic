@@ -7,6 +7,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { TestComponent } from './components/test/test.component';
+import { FormsModule } from '@angular/forms';
+import { SalesComponent } from './components/sales/sales.component';
+import { TicketsComponent } from './components/tickets/tickets.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +18,15 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     NavbarComponent,
     HomeComponent,
     FooterComponent,
-    CarouselComponent
+    CarouselComponent,
+    TestComponent,
+    SalesComponent,
+    TicketsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
